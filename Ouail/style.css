@@ -27,3 +27,51 @@ ul#menu li a
     padding-right:.5em;
     color: #696969;
 }
+media="screen">
+
+
+   /*THIS IS THE HOLDING CONTAINER*/
+   .container{
+    position: relative;
+    display: block;
+    width: 320px;
+    height: 320px;
+    background: #000;
+    background: url('image.jpg');
+    background-size: cover;
+    margin: 120px auto;
+    border-radius: 32px;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+   }
+
+
+   /*THIS IS THE INTERNAL CONTAINER THAT SHOWS ON HOVER*/
+   .hoverdiv{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    opacity: 0;
+    border-radius: 32px;
+    transition: all 0.3s ease-in-out;
+    transition-delay: 0.3s;
+    box-sizing: border-box;
+   }
+
+
+   /*THIS IS THE MAIN LINE OF CODE THAT TARGETS THE INTERNAL CONTAINER*/
+   .container:hover .hoverdiv, .container:active .hoverdiv{
+   /*ADD PROPERTIES HERE THAT YOU WANT TO CHANGE WHEN A USER HOVERS*/
+   /*NOTE 1: MOST PROPERTIES WITH NUMERIC VALUES CAN BE ANIMATED*/
+   /*NOTE 2: PROPERTIES WITHOUT NUMBERS, LIKE DISPLAY:BLOCK, WILL NOT ANIMATE*/
+    opacity: 1;
+   }
+
+
+   .container:hover{
+    transform: scale(1.03);
+   }
