@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="Javascript.js"></script>
+    <title>Daily Paper</title>
+</head>
+<body>
+    <div class="container3 mw-100  "> 
+        <div class="navbar navbar-expand-md navbar-light bg-light " >
+            <button class="navbar-toggler " type="button" data-toggle=" collapse" data-target="" >
+                <span class="navbar-toggler-icon"> </span>
+                
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-center " id="navbarTarget">
+                <ul class="navbar-nav font-weight-bold me-auto mb-6 mb-lg-1 " style="margin-left: 250px; font-size: 21px;">
+                    <li class="navbar-nav  ">
+                        <a class="nav-link text-danger  " href="index.html"> Home</a>
+                    </li>
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="sale.html">Sale</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contact.html">Contact</a>
+                    </li>
+                    </ul>
+            </div>
+            <form class="form-inline float-right">
+            <input class="form-control mr-sm-2" type="search" placeholder="Zoeken" aria-label="Search">
+            
+            </form>
+        </div>
+    </div>
+    <a class="fas fa-sign-in-alt float-right text-dark" href="login.html" style="font-size: 21px;"></a>
+    <a class="fa fa-shopping-cart text-dark float-right" href="winkelwagen.html" style="margin-right: 15px; margin-top: 1px; font-size: 20px;"></a>
+    <div class="jumbotron" style="background-image: url(img/DAILY-PAPER-stationery-scaled.jpg); background-size: 13%; margin-top: 30px; "> 
+    </div> 
+    
+
+    <form action="action_page.php" method="post">
+      <div class="imgcontainer">
+      </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+    
+
+      
+    </div>
+</body>
+</html>

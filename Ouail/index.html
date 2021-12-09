@@ -35,24 +35,50 @@
             </div>
             <form class="form-inline float-right">
             <input class="form-control mr-sm-2" type="search" placeholder="Zoeken" aria-label="Search">
-            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Zoeken</button>
+            
             </form>
         </div>
     </div>
-    <a class="fa fa-filter text-dark float-right" style="margin-right: 20px; margin-top: 3px; font-size: 20px;"></a>
+    <a class="fas fa-sign-in-alt float-right text-dark" href="login.html" style="font-size: 21px;"></a>
     <a class="fa fa-shopping-cart text-dark float-right" href="winkelwagen.html" style="margin-right: 15px; margin-top: 1px; font-size: 20px;"></a>
     <div class="jumbotron" style="background-image: url(img/DAILY-PAPER-stationery-scaled.jpg); background-size: 13%; margin-top: 30px; "> 
     </div> 
     
 
+    <!--<form action="action_page.php" method="post">
+      <div class="imgcontainer">
+      </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>-->
+    
+
      <div class="container1">
         <div class="row ">
           <div class="div1"><div class="btn-group">
-             
-            <ul id="menu">              
-              <li><a href="menu.html">Men</a></li>
-              <li><a href="menu.html">Women</a></li>
-              <li><a href="menu.html">Collections</a></li>
+             <a class="fa fa-filter text-dark float-right" style="margin-right: 20px; margin-top: 33px; font-size: 30px;"></a>
+            <ul id="menu">   
+              
+               
+              <li><a href="index.html">Men</a></li>
+              <li><a href="index.html">Women</a></li>
+              <li><a href="index.html">Collections</a></li>
           </ul>
           </div></div>
           
@@ -62,7 +88,26 @@
               <div class="card-body">
                 <p class="card-text">Black Amsterdam Hoody</p>
                 <p class="card-text">€99.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€99.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan Winkelmand</button>
               </div>
             </div>
           </div>
@@ -72,7 +117,26 @@
               <div class="card-body">
                 <p class="card-text">Black Amsterdam Longsleeve</p>
                 <p class="card-text">€69.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€69.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan Winkelmand</button>
               </div>
             </div>
           </div>
@@ -82,8 +146,27 @@
               <div class="card-body">
                 <p class="card-text">Black Ezip Vest</p>
                 <p class="card-text">€129.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
-              </div>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui3.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€99.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan winkelmand</button>
+                </div>
             </div>
           </div>
           <div class="col-12 col-md-3">
@@ -92,8 +175,27 @@
               <div class="card-body">
                 <p class="card-text">Black Amsterdam Hoody</p>
                 <p class="card-text">€99.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
-              </div>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€99.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan winkelmand</button>
+                </div>
             </div>
           </div>
           <div class="col-12 col-md-3">
@@ -102,8 +204,27 @@
               <div class="card-body">
                 <p class="card-text">Black Alias T-Shirt</p>
                 <p class="card-text">€49.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
-              </div>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€99.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan winkelmand</button>
+                </div>
             </div>
           </div>
           <div class="col-12 col-md-3">
@@ -112,8 +233,27 @@
               <div class="card-body">
                 <p class="card-text">Black Hopuff Jacket</p>
                 <p class="card-text">€269.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
-              </div>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€99.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan winkelmand</button>
+                </div>
             </div>
           </div>
           <div class="col-12 col-md-3">
@@ -122,8 +262,27 @@
               <div class="card-body">
                 <p class="card-text">Cargo Pants Black</p>
                 <p class="card-text">€99.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
-              </div>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€99.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan winkelmand</button>
+                </div>
             </div>
           </div>
          
@@ -133,8 +292,27 @@
               <div class="card-body">
                 <p class="card-text">Black Hobucket Hat</p>
                 <p class="card-text">€69.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
-              </div>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€99.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan winkelmand</button>
+                </div>
             </div>
           </div>
           <div class="col-12 col-md-3">
@@ -143,8 +321,27 @@
               <div class="card-body">
                 <p class="card-text">Black Ecapt</p>
                 <p class="card-text">€59.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
-              </div>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€99.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan winkelmand</button>
+                </div>
             </div>
           </div>
           <div class="col-12 col-md-3">
@@ -153,8 +350,27 @@
               <div class="card-body">
                 <p class="card-text">Black New Homea Bag</p>
                 <p class="card-text">€99.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
-              </div>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€99.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan winkelmand</button>
+                </div>
             </div>
           </div>
           <div class="col-12 col-md-3">
@@ -163,8 +379,27 @@
               <div class="card-body">
                 <p class="card-text">Daily Paper x G-SHOCK</p>
                 <p class="card-text">€299.95</p>
-                <a href="winkelwagen.html" class="btn btn-dark"> Toevoegen aan winkelmand</a>
-              </div>
+                <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+                  <div class="model-inner">
+                    <div class="modal-header">
+                      <h3>Winkelmand</h3>
+                      <button class="modal-close" data-id="demo-modal" aria-label="Close">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="img/trui.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Black Amsterdam Hoody</p>
+                          <p class="card-text">€99.95</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="modal-open" data-id="demo-modal">Toevoegen aan winkelmand</button>
+                </div>
             </div>
           </div>
         </div>
