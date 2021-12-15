@@ -64,7 +64,7 @@ body {
   }
   
   .btn {
-    background-color: #04AA6D;
+    background-color: #000000;
     color: white;
     padding: 12px;
     margin: 10px 0;
@@ -80,7 +80,7 @@ body {
   }
   
   a {
-    color: #2196F3;
+    color: #ff0000;
   }
   
   hr {
