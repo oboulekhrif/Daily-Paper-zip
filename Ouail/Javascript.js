@@ -36,32 +36,32 @@ const openModal = (modal) => {
     alert("Weet je het zeker dat je wilt betalen?");
   }
 
-// Set the date we're counting down to
+// de afloopdatum
 const countDownDate = new Date("dec 31, 2021 00:00:00").getTime();
 
-// Update the count down every 1 second
+// Update de teller elke 1 seconde
 const x = setInterval(function() {
 
   // Get today's date and time
   const now = new Date().getTime();
     
-  // Find the distance between now and the count down date
+  // afstand tussen nu en de afloop datum
   const distance = countDownDate - now;
     
-  // Time calculations for days, hours, minutes and seconds
+  // berekning van dagen, uren, minuten en secondes
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-  // Output the result in an element with id="demo"
+  // Output het resultaat in een element
   document.getElementById("timer").innerHTML = days + " DAG " + hours + " UUR "
   + minutes + " MIN " + seconds + " SEC ";
     
-  // If the count down is over, write some text 
+  // Wanneer de timer is afgelopen Komt er een tekst
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "EXPIRED";
+    document.getElementById("timer").innerHTML = "Deze sale is afgelopen!";
   }
 }, 1000);
   
